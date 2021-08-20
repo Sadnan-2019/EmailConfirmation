@@ -1,0 +1,480 @@
+/*
+.div-one{
+  height: 200px;
+    width: 300px;
+
+    background-color: crimson;
+
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    body{
+
+        background-color: yellowgreen;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+body{
+    background-color: yellow;
+
+
+}
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1100px) {
+    body{
+
+        background-color: black;
+    }
+
+}*/
+
+@import url(//fonts.googleapis.com/css?family=Roboto|Alex+Brush);
+@import url(//fonts.googleapis.com/css?family=Asul);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+[class*='col-']{
+    float: left;
+
+
+}
+
+.row:after{
+
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+
+.header-height{
+
+    height: 80px;
+
+    /*background-color: #5C0A00;*/
+}
+
+
+
+
+.body-height{
+
+    height: 300px;
+ }
+
+.footer-height{
+
+    height: 100px;
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+    .col-t1{width: 8.33%}
+    .col-t2{width: 16.66%}
+    .col-t3{width: 25%}
+    .col-t4{width: 33.33%}
+    .col-t5{width: 41.66%}
+    .col-t6{width: 50%}
+    .col-t7{width: 58.33%}
+    .col-t8{width: 66.66%}
+    .col-t9{width: 75%}
+    .col-t10{width: 83.33%}
+    .col-t11{width: 91.66%}
+    .col-t12{width: 100%}
+    .second{
+
+
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+
+
+
+
+
+    }
+   /* ul li{
+
+        margin-top: 10px;
+
+    }*/
+
+    .navbar{
+        flex-direction: column;
+    }
+    .container{
+
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        background-position:center ;
+
+
+        height: 680px;
+    }
+    .logo{
+        margin-right: 400px;
+    }
+.body-height p{
+
+    margin-right: 350px;
+    font-size: 15px;
+    clear: both;
+    white-space: nowrap;
+
+
+}
+
+
+    .body-height img{
+
+    margin-right: 380px;
+
+}
+    .body-height h5{
+
+    margin-right: 350px;
+
+}
+
+    .btn{
+
+    margin-right: 350px;
+
+}
+
+
+
+
+
+
+}
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+    .col-st1{width: 8.33%}
+    .col-st2{width: 16.66%}
+    .col-st3{width: 25%}
+    .col-st4{width: 33.33%}
+    .col-st5{width: 41.66%}
+    .col-st6{width: 50%}
+    .col-st7{width: 58.33%}
+    .col-st8{width: 66.66%}
+    .col-st9{width: 75%}
+    .col-st10{width: 83.33%}
+    .col-st11{width: 91.66%}
+    .col-st12{width: 100%}
+    .second{
+
+
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+
+
+
+
+
+    }
+    /* ul li{
+
+         margin-top: 10px;
+
+     }*/
+
+    .navbar{
+        flex-direction: column;
+    }
+    .container{
+
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        background-position:center ;
+
+
+        height: 680px;
+    }
+    .logo{
+        margin-right: 400px;
+    }
+
+
+    .body-height p{
+
+        margin-right: 300px;
+        font-size: 15px;
+        clear: both;
+         white-space: nowrap;
+
+
+
+
+
+    }
+
+
+
+    .body-height img{
+
+        margin-right: 300px;
+
+    }
+    .body-height h5{
+
+        margin-right: 3000px;
+         clear: both;
+        white-space: nowrap;
+    }
+    .btn{
+
+        margin-right: 300px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 750px) {
+    .col-p1{width: 8.33%}
+    .col-p2{width: 16.66%}
+    .col-p3{width: 25%}
+    .col-p4{width: 33.33%}
+    .col-p5{width: 41.66%}
+    .col-p6{width: 50%}
+    .col-p7{width: 58.33%}
+    .col-p8{width: 66.66%}
+    .col-p9{width: 75%}
+    .col-p10{width: 83.33%}
+    .col-p11{width: 91.66%}
+    .col-p12{width: 100%}
+
+    .second{
+
+
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    .navbar{
+        flex-direction: column;
+    }
+    .container{
+
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        background-position:center ;
+
+
+        height: 980px;
+    }
+    .logo{
+        margin-right: 350px;
+    }
+
+
+    .body-height{
+
+        height: 400px;
+    }
+
+
+    .body-height p{
+
+        margin-right: 500px;
+        background-color: #59042b;
+        clear: both;
+        white-space: nowrap;
+        font-size: 12px;
+
+
+
+
+
+
+    }
+    .body-height img{
+
+        margin-right: 200px;
+
+    }
+
+    .body-height{
+
+        height: 220px;
+    }
+    .body-height h5{
+
+        margin-right: 200px;
+        clear: both;
+        white-space: nowrap;
+    }
+    .btn{
+
+        margin-right: 220px;
+    }
+
+
+
+
+    .footer-height2 p{
+
+
+        font-size: 12px;
+
+
+
+    }
+    .container:before{
+        background-image: url("../views/user/mails/image/backg.png");
+
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position:center ;
+        background-size: 400px;
+        z-index: 3;
+        width: 50%;
+        height: 30%;
+        opacity: 10%;
+        content: '';
+        margin-left: 150px;
+        margin-top: 50px;
+
+
+    }
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 500px){
+
+    .col-m12{width: 100%}
+    .second{
+
+
+        text-decoration: none;
+        flex-direction: column;
+        text-align: center;
+
+        /*
+        margin-top: 50px;
+        */
+
+
+
+
+    }
+
+    .footer-height2 p{
+
+
+        font-size: 12px;
+
+
+
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+    .container{
+
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        background-position:center ;
+
+
+
+        height: 980px;
+    }
+    .logo{
+        margin-right: 350px;
+    }
+
+
+    .body-height p{
+
+        margin-right: 150px;
+        font-size: 12px;
+
+
+
+
+    }
+    .body-height img{
+
+        margin-right: 150px;
+
+    }
+    .body-height h5{
+
+        margin-right: 150px;
+        display: inline-block;
+    }
+.btn{
+
+    margin-right: 150px;
+}
+
+    .container:before{
+        background-image: url("../views/user/mails/image/backg.png");
+
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-position:center ;
+        background-size: 250px;
+        z-index: 3;
+        width: 50%;
+        height: 30%;
+        opacity: 10%;
+        content: '';
+        margin-left: 100px;
+        margin-top: 50px;
+
+
+    }
+
+
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+[class*='col-']{
+    float: left;
+    /*
+    border: 1px solid black;
+    */
+
+
+}
+
+
+.row:after{
+
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width:50%;
+    margin: 0 auto;
+
+}
+.img1{
+
+    height: 50px;
+    width: 100px;
+    float: left;
+    display: flex;
+
+
+
+
+}
+
+
+.img2{
+
+
+    margin-left: 70%;
+    height:auto;
+    float: left;
+    max-width: 100%
+
+
+
+
+
+}
+
+.im3{
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+.im4{
+    width: 35px;
+    justify-content: center;
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+
+
+
+
+}.im5{
+    width: 35px;
+    justify-content: center;
+    display: flex;
+     float: left;
+ margin-right: 5px;
+    margin-left: 5px;
+     margin-top: 20px;
+
+
+
+
+ }.im6{
+    width: 35px;;
+    justify-content: center;
+    display: flex;
+        margin-top: 20px;
+       float: left;
+       margin-right: 20px;
+
+
+
+
+
+
+
+   }
+.adress {
+
+    font-size: 12px;
+    margin-top: 10px;
+    font-family:  "MS Reference Sans Serif";
+}
+
+
+.congretulation{
+
+    height: 450px;
+
+     background-color: white;
+     margin-top: 25px;
+
+
+}
+
+
+.congretulation p{
+
+     clear: both;
+    color: black;
+      display: flex;
+    font-size: 15px;
+    float: left;
+
+
+
+}
+.congretulation h3{
+    margin-top: 25px;
+
+
+}
+/*.congretulation .best{
+
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap
+ }*/
+
+.button{
+
+    border-radius: 100px;
+    width: 220px;
+
+    display: block;
+    text-decoration: none;
+    border: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    color: white;
+    height: 50px;
+    background-color: blue;
+}
+
+
+
